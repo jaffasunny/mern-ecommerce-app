@@ -4,7 +4,6 @@ import Announcement from "../components/Announcement";
 import Products from "../components/Products";
 import Footer from "../components/Footer";
 import Newsletter from "../components/Newsletter";
-import { FormatQuoteRounded } from "@mui/icons-material";
 
 const Container = styled.div``;
 
@@ -76,7 +75,7 @@ const ProductList = () => {
 			</FilterContainer>
 			<Products />
 			<Newsletter />
-			<FormatQuoteRounded />
+			<Footer />
 		</Container>
 	);
 };
